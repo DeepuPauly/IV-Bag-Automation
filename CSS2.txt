@@ -1,0 +1,175 @@
+body {
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: padding-box;
+}
+
+.text h1{
+      position: absolute;
+             top: 10px;
+             left: 600px;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-size: 80px;
+       font-weight: bold;
+
+       color: white;
+
+}
+
+.text h1 span{
+       color: red;
+}
+
+.logo{
+      width:200px;
+
+       position: absolute;
+       left: 850px;
+       top: 140px
+}
+
+form{
+
+        position: absolute;
+        
+        left: 150px;
+     
+       width:300px ;
+
+       padding: 10px;
+
+       background: rgba(33,231,205,0);
+}
+
+h2{
+
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      
+       font-size: 35px;
+   
+      font-weight: bold;
+
+     margin-bottom: 40px;
+
+     position: absolute;
+
+      left: 20px;
+      top: -50px;
+
+
+}
+
+input{
+
+       display: block;
+
+       border: 2px solid rgb(4,4,4);
+
+       width: 83%;
+
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+      font-weight: bold;
+
+      padding: 10px;
+
+      margin: 10px auto;
+
+      border-radius: 10px
+
+}
+
+label{
+
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-size: 30px;
+       font-weight: 100;
+
+
+       color: rgb(8, 6, 6);
+
+      font-size: 25px;
+
+      padding: 10px;
+
+}
+
+button {
+
+    float: right;
+
+    background: rgb(32, 117, 93);
+
+    padding: 10px 10px;
+
+    color: #fff;
+
+    border-radius: 5px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    font-size: 30px;
+
+    font-weight: 100;
+
+    margin-right: 10px;
+
+    border: none;
+
+}
+
+button:hover{
+ 
+background-color: white;
+color: #0c0101;
+transition: .5s;
+
+}
+
+.error{
+       opacity: 0;
+       font-size: 20 px;
+       font-weight: 200;
+}
+
+h1 {
+
+    text-align: center;
+
+    color: rgb(32, 164, 112);
+
+}
+
+a {
+
+    float: right;
+
+    background: rgb(32, 161, 133);
+
+    padding: 10px 15px;
+
+    color: #fff;
+
+    border-radius: 10px;
+
+    margin-right: 10px;
+
+    border: none;
+
+    text-decoration: none;
+
+}
+
+a:hover{
+
+    opacity: .7;
+
+}
